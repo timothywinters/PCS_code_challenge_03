@@ -22,7 +22,6 @@ class MyTest < MiniTest::Unit::TestCase
   end
 
   def test_form_data
-    post '/dude' , :name => 'simon'
-    assert_equal "You said simon", last_response.body
+
   end
 end

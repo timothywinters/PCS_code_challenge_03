@@ -1,3 +1,4 @@
+# encoding: UTF-8
 # sample/test/sample_test_helper.rb
 
 ENV['RACK_ENV'] = 'test'
