@@ -8,7 +8,7 @@ enable :sessions
 
 get '/' do
   @title = 'Comming Soon'
-  erb :form, :locals => { :session => session }
+  erb :form, locals: { session: session }
 end
 
  post '/thanks' do

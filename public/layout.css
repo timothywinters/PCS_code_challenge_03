@@ -4,9 +4,38 @@ body {
 }
 h3 {
   font-family:helvetica,sans-serif;
+  font-style:italic;
 }
 
 img {float:right}
+
+
+    th {background: grey;}
+
+table {border-width: 2px;
+  border-spacing: 5px;
+  border-style: solid;
+  border-color: black;
+  border-collapse: collapse;
+  background-color: white; }
+
+th {
+  border-width: 0px;
+  padding: 5px;
+  border-style: double;
+  border-color: black;
+  background-color: grey;
+  -moz-border-radius: ;
+}
+
+td {
+  border-width: 0px;
+  padding: 5px;
+  border-style: double;
+  border-color: black;
+  background-color: white;
+  -moz-border-radius: ;}
+
 
 
 
